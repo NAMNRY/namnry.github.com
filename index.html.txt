@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>เว็บแฟ้มสะสมงานออนไลน์ของ นรัญญา ขันทา</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <?!= include('css') ?>
+
+</head>
+<body>
+    
+<!-- header section starts  -->
+
+<header>
+
+    <div class="user">
+        <img src="https://drive.google.com/uc?id=1ADTMaMntMbW8Km6pXiskXAegoGjuulDJ" alt="">
+        <h3 class="name">นรัญญา ขันทา</h3>
+        <p class="post">นักศึกษาชั้นปีที่ 3 
+          มหาวิทยาลัยเกษตรศาสตร์</p>
+    </div>
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">หน้าหลัก</a></li>
+            <li><a href="#about">ข้อมูลส่วนตัว</a></li>
+            <li><a href="#education">ทักษะการใช้โปรแกรม</a></li>
+            <li><a href="#portfolio">แฟ้มสะสมงาน</a></li>
+            <li><a href="#contact">ข้อมูลการติดต่อ</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<!-- header section ends -->
+
+<div id="menu" class="fas fa-bars"></div>
+
+<!-- home section starts  -->
+
+<section class="home" id="home">
+
+    <h3> </h3>
+    <h1>นางสาว <span>นรัญญา ขันทา</span></h1>
+    <p>สวัสดีค่ะ ดิฉัน นรัญญา ขันทา ดิฉันเรียนสาขาสถิติที่ช่วยในการวิเคราะห์ข้อมูลและแก้ปัญหาเกี่ยวกับ Big data ดังนั้นดิฉันจึงมีความสนใจ 
+      Data Analyst และ Data science 
+    <p>นักศึกษาชั้นปีที่: 3<br>
+สาขา: สถิติ <br>
+คณะ: วิทยาศาสตร์<br>
+มหาวิทยาลัย: เกษตรศาสตร์(บางเขน)<br>
+GPA: 3.52 <br>
+    </p>
+    <a href="#about"><button class="btn">ข้อมูลส่วนตัว <i class="fas fa-user"></i></button></a>
+
+</section>
+
+<!-- home section ends -->
+
+<!-- about section starts  -->
+
+<section class="about" id="about">
+
+<h1 class="heading"> <span>about</span> me </h1>
+
+<div class="row">
+
+    <div class="info">
+        <h3> <span> ชื่อ สกุล : </span> นางสาวนรัญญา ขันทา </h3>
+        <h3> <span> อายุ : </span> 21 </h3>
+        <h3> <span> นักศึกษาระดับชั้นปีที่ : </span> 3 </h3>
+        <h3> <span> สาขา : </span> สถิติ </h3>
+        <h3> <span> คณะ : </span> วิทยาศาสตร์ </h3>
+         <a href="https://drive.google.com/uc?id=1wG3_NtcMgdIQ7gXiQ9ZivdQRE0vMWxvH"><button class="btn">download CV <i class="fas fa-download"></i></button></a>
+    </div>
+
+
+</div>
+
+</section>
+
+<!-- about section ends -->
+
+<!-- education section starts  -->
+
+<section class="education" id="education">
+
+<h1 class="heading"> my <span>skills</span> </h1>
+
+<div class="box-container">
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>programing language</span>
+        <h3>SAS</h3>
+        <p>มีความสามารถพื้นฐานและสามารถใช้โปรแกรมได้อย่างคล่องแคล่ว </p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>programing language</span>
+        <h3>SPSS</h3>
+        <p>มีความสามารถพื้นฐานและสามารถใช้โปรแกรมได้อย่างคล่องแคล่ว</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>programing language</span>
+        <h3>R</h3>
+        <p>มีความสามารถพื้นฐานและสามารถใช้โปรแกรมได้อย่างคล่องแคล่ว</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>programing language</span>
+        <h3>Mini tab</h3>
+        <p>มีความสามารถพื้นฐานและสามารถใช้โปรแกรมได้อย่างคล่องแคล่ว</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>programing language</span>
+        <h3>Python</h3>
+        <p>มีความสามารถพื้นฐาน</p>
+    </div>
+
+    <div class="box">
+        <i class="fas fa-graduation-cap"></i>
+        <span>programing language</span>
+        <h3>Excel</h3>
+        <p>มีความสามารถพื้นฐานและสามารถใช้โปรแกรมได้อย่างคล่องแคล่ว</p>
+    </div>
+
+</div>
+
+</section>
+
+<!-- education section ends -->
+
+<!-- portfolio section starts  -->
+
+<section class="portfolio" id="portfolio">
+
+<h1 class="heading"> my <span>portfolio</span> </h1>
+
+<div class="box-container">
+
+  <a href="https://drive.google.com/uc?id=14AvavQqi9DjAY6Vbbs3Yn1Y9kFkayFy7"><button class="btn"> Download Interest Table <i class="fas fa-download"></i></button></a>
+
+</div>
+
+<div class="box-container">
+
+   <a href="https://drive.google.com/uc?id=1kuP_05LCwQnA6vpa4isyI9PcAcPRSsMa"><button class="btn">Download SPSS TEST <i class="fas fa-download"></i></button></a>
+
+</div>
+
+</section>
+
+<!-- portfolio section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+
+<h1 class="heading"> <span>contact</span> me </h1>
+
+<div class="row">
+
+    <div class="content">
+
+        <h3 class="title">ข้อมูลการติดต่อ</h3>
+
+        <div class="info">
+            <h3> <i class="fas fa-envelope"></i> Naranya.kha@gmail.com </h3>
+            <h3> <i class="fas fa-phone"></i> 062-653-7436 </h3>
+            <h3> <i class="fas fa-address-card"></i> 115 หมู่ 4 ตำบลเจดีย์หลวง </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> อำเภอแม่สรวย, เชียงราย - 57180. </h3>
+        </div>
+
+    </div>
+
+    <form action="">
+
+        <input type="text" placeholder="name" class="box">
+        <input type="email" placeholder="email" class="box">
+        <input type="text" placeholder="project" class="box">
+        <textarea name="" id="" cols="30" rows="10" class="box message" placeholder="message"></textarea>
+        <button type="submit" class="btn"> ส่ง <i class="fas fa-paper-plane"></i> </button>
+
+    </form>
+
+</div>
+
+</section>
+
+<!-- contact section ends -->
+
+
+<!-- scroll top button  -->
+
+<a href="#home" class="top">
+    <img src="images/scroll-top-img.png" alt="">
+</a>
+
+
+<!-- jquery cdn link  -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- custom js file link  -->
+<?!= include('java') ?>
+
+
+</body>
+</html>
